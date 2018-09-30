@@ -1,0 +1,86 @@
+ body{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.section{
+    color: white;
+    width: 100%; 
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.content{
+    align-items: center;
+}
+
+.quemvota{
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-image: url("popu.jpg");
+}
+
+.quemvota h1{
+    color:green;
+    margin-top:15%;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 150px;
+    -webkit-text-stroke-color:yellow;
+    -webkit-text-stroke-width:1px;
+}
+
+.quemvota p{
+    color: yellow;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    margin-top: -110px;
+    text-align: center;
+    -webkit-text-stroke-color:green;
+    -webkit-text-stroke-width:1px;
+}
+
+.quemvota button{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    height: 70px;
+    width: 200px;
+    border-radius: 30px;
+    margin-left: 37%;
+}
+
+
+
+.first{
+    background-color: white;
+    display: flex;
+    background-image:url("bla.jpg");
+    
+}
+.candidato{
+    padding-top:50px;
+    border-radius: 30px;
+    background-color: grey;
+    width: 350px;
+    height: 70%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+ .candidato img{
+     margin-left:35%;
+     border-radius: 100%;
+ }
+
+ .candidato h1,p{
+     margin-left: 20px;
+     margin-right: 20px;
+     text-align: center;
+     font-family: 'Fjalla One', sans-serif;
+ }
+

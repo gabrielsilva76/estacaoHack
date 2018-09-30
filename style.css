@@ -1,0 +1,99 @@
+/* body{
+    background-color: blue;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+h1{
+    color: fuchsia;
+}
+
+p{
+    color: black;
+    font-weight:bold;
+} */
+
+/* div{
+    color: deeppink;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 24px;
+    background-color: chartreuse;
+} */
+
+/* .anime{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;   
+    border:  solid black 5px;  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nrt{
+    background-image: url("wallpaper2.jpg") ;
+}
+
+.db{
+    background-image: url("wallpaper3.jpg");
+}
+
+.bleach{
+    background-image: url("wallpaper4.png");
+} */
+
+
+.container-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-1 div,.container-2 div{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.container-box{
+    width: 20%;
+}
+
+.box-1{
+    flex:1 ;
+}
+
+.box-2{
+    flex:2 ;
+}
+
+.box-3{
+    flex:3 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
